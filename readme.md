@@ -11,13 +11,14 @@
 - [Turtle graphics](https://docs.python.org/3/library/turtle.html)
 - [Introduction to algrithms, third edition](https://www.cs.mcgill.ca/~akroit/math/compsci/Cormen%20Introduction%20to%20Algorithms.pdf)
 - [Introduction to tree data structure](https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/)
-
+- [Tidskompleksitet](https://da.wikipedia.org/wiki/Tidskompleksitet)
 
 ## Introduktion
 ### Hvad er en algoirtme?
-" *An **algorithm** is any well-defined computational procedure that takes some value, or set of values, 
-as **input** and produce some value, or set of values, as **output**. An algorithm is thus a sequence of computational steps
-that transform the input into the output * " 
+
+*An **algorithm** is any well-defined computational procedure that takes some value, or set of values, 
+as **input** and produce some value, or set of values, as **output**. An algorithm is thus a sequence of computational steps that transform the input into the output*
+
 [Introduction to algrithms, third edition](https://www.cs.mcgill.ca/~akroit/math/compsci/Cormen%20Introduction%20to%20Algorithms.pdf)
 
 
@@ -50,6 +51,8 @@ og bytter det frem til den korrekte position.
 
 ## Sorteringsalgorithmer 3
 ### Bubble sort
+ref: https://www.geeksforgeeks.org/dsa/bubble-sort-algorithm/
+
 Man lader de største elementer “boble” op til toppen ved gentagne sammenligninger og bytninger af naboelementer.
 
 1. Sammenlign to naboer. Hvis de står forkert, byt dem.
