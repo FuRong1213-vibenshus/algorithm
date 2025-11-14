@@ -12,6 +12,8 @@
 - [Introduction to algrithms, third edition](https://www.cs.mcgill.ca/~akroit/math/compsci/Cormen%20Introduction%20to%20Algorithms.pdf)
 - [Introduction to tree data structure](https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/)
 - [Tidskompleksitet](https://da.wikipedia.org/wiki/Tidskompleksitet)
+- [Introduction to Recursion](https://www.geeksforgeeks.org/dsa/introduction-to-recursion-2)
+- [Call Stack Recursion](https://dev.to/muirujackson/call-stack-recursion-40eh)
 
 ## Introduktion
 ### Hvad er en algoirtme?
@@ -120,7 +122,28 @@ De samlede forventede omkostning afhænger af:
     - Ekstra udfordringer: brug fx `matplotlib` til at animere sorteringsprocessen.
         - hver søjle repræsentere et tal -- vis hvordan elementer flytter sig.
 
-2. [ibog](https://programmering.systime.dk/?id=240)
+2. Rekursion
+    - Nedtælling
+        - Skrive en rekursiv funktion `countdown(n)`, der printer tallene fra `n` ned til 0.
+        - Hvad der sker i "base case" og "recursive case".
+    - Faktorial 
+        - lav en rekursiv funktion `factorial(n)` der beregner `n!`. 
+        - Sammenlign derefter med en iterativ version (dem med for-løkke). Hvilken version er mest effektiv? Hvorfor?
+    - Fibonacci
+        - Lav en rekursiv funktion `fibonacci(n)`. 
+        - Udvid funktionen til at tælle, hvor mange gange den bliver kaldt (f.eks. med en global counter eller en parameter)
+        - Diskussion: hvorfor Fibonacci er et *ineffektivt* eksempel på rekursion, og hvordan man kunne forbedre det. (memoization)
+        - Lav en plot, der viser hvor mange funktionkald `fibonacci(n)` laver som funktion af n.
+    - Binær søgning
+        - Skriv pseudokode til binærsøgning
+            - iterativ
+            - rekursiv
+    - Diskussion:
+        - Hvornår er rekursion en god ide?
+        - Hvornår bør man vælge iterative i stedet?
+        
+
+3. [ibog](https://programmering.systime.dk/?id=240)
     - Øvelse 8.6, Øvelse 8.7, Øvelse 8.9
     - Øvelse 8.11, Øvelse 8.13, Øvelse 8.14
 
