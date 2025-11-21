@@ -64,6 +64,9 @@ Man lader de største elementer “boble” op til toppen ved gentagne sammenlig
 ## Sorteringsalgorithmer 4
 ### Merge sort (divide & conquer)
 
+
+[s.30-37 Introduction to algrithms, third edition](https://www.cs.mcgill.ca/~akroit/math/compsci/Cormen%20Introduction%20to%20Algorithms.pdf)
+
 En rekursiv ”divide and conquer”-algoritme: man deler listen i to halvdele, sorterer hver del, og fletter dem derefter sammen i én sorteret liste.
 
 1. Del listen i to lige store dele.
@@ -90,14 +93,15 @@ De samlede forventede omkostning afhænger af:
 - Antal ansættelse: afhænger af, hvor mange gange en ny "bedre kandidat" dukker op. 
 
 
-## Binær søgning
-
-- Gæt et tal mellem 1 og 100
-- Algoritme
 
 ## Rekursion
 - n'th Fibonacci 
 - n'th factorial 
+
+## Binær søgning
+
+- Gæt et tal mellem 1 og 100
+- Algoritme
 
 ## Advancered konstruktioner
 
@@ -134,10 +138,17 @@ De samlede forventede omkostning afhænger af:
         - Udvid funktionen til at tælle, hvor mange gange den bliver kaldt (f.eks. med en global counter eller en parameter)
         - Diskussion: hvorfor Fibonacci er et *ineffektivt* eksempel på rekursion, og hvordan man kunne forbedre det. (memoization)
         - Lav en plot, der viser hvor mange funktionkald `fibonacci(n)` laver som funktion af n.
+    - Merge Sort
+        - Forstå psedukoden
+        - Implementere merge sort
+        - Sammenlign køretiden mellem merge sort vs bubble sort. Hvem har kortere køretide? 
     - Binær søgning
         - Skriv pseudokode til binærsøgning
             - iterativ
             - rekursiv
+        - Implementation
+            - Hvorfor skal listen være sorteret?
+            - Hvor mange trin bruger binær søgning i værste fald?
     - Diskussion:
         - Hvornår er rekursion en god ide?
         - Hvornår bør man vælge iterative i stedet?
