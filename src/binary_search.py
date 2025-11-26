@@ -53,8 +53,8 @@ def binary_search_rec(target, A, min, max):
     return guess
 
     
-A = range(10)
+A = range(1,10)
 #target = random.choice(A)
 
-target = 9 
+target = 0 
 print(f'searching for {target} in A, index is {binary_search_rec(target, A, 0, len(A))}')
